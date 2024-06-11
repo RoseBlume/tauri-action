@@ -179,7 +179,7 @@ export async function buildProject(
           ? 'i386'
           : arch === 'arm'
             ? 'armhfp'
-            : arch == 'aarch64'
+            : arch == 'arm64'
               ? 'aarch64'
               : arch;
     const appImageArch =
